@@ -14,7 +14,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "rpc": "mkdir -p tmp/rpc && ganache-cli -h 0.0.0.0 --db tmp/rpc/ -i 5777 -d -m"
   },
   "dependencies": {
     "@nuxtjs/vuetify": "^0.4.2",
