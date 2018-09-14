@@ -1,6 +1,9 @@
 {
-  "name": "contract",
+  "name": "slime-token",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
 }
