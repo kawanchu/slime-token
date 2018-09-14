@@ -1,4 +1,4 @@
-reated by https://www.gitignore.io/api/soliditytruffle
+# created by https://www.gitignore.io/api/soliditytruffle
 
 ### SolidityTruffle ###
 # depedencies
@@ -26,5 +26,11 @@ blockchain/history
 yarn.lock
 package-lock.json
 
-
 # End of https://www.gitignore.io/api/soliditytruffle
+
+### Nuxt ###
+# build
+.nuxt
+
+# generate
+dist

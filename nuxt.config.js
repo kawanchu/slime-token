@@ -41,6 +41,7 @@ module.exports = {
   vuetify: {
     // Vuetify options
     //  theme: { }
-  }
+  },
+  srcDir: 'src'
 }
 
