@@ -20,6 +20,7 @@
   "dependencies": {
     "@nuxtjs/vuetify": "^0.4.2",
     "nuxt": "^1.0.0",
+    "web3": "^1.0.0-beta.36",
     "zeppelin-solidity": "^1.12.0"
   },
   "devDependencies": {
